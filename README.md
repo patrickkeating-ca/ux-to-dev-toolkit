@@ -8,19 +8,19 @@ Learn version control, collaboration workflows, and professional documentation p
 ## What You'll Learn
 
 **Week 1: Terminal & Markdown Basics**
-Learn essential command line navigation and markdown syntax for professional documentation.
+Learn command line navigation and markdown syntax for professional documentation.
 
 **Week 2: VS Code Setup & Workflow**
-Set up your professional text editor with shortcuts and extensions for efficient markdown editing.
+Set up your text and code editor with shortcuts and extensions for markdown editing.
 
 **Week 3: Git Basics (Local)**
 Master version control fundamentals—track changes, create commits, and maintain project history.
 
 **Week 4: GitHub & Remote Repos**
-Connect your local work to GitHub, collaborate with teams, and backup your work in the cloud.
+Connect your local work to GitHub, collaborate with teams, and back up projects to a repository.
 
 **Week 5: Collaboration Workflow**
-Learn branches, pull requests, and code review—the professional workflow used by development teams.
+Learn branches, pull requests, and code review.
 
 **Week 6: Real Project Setup**
 Build a complete, portfolio-ready UX project repository with proper structure and documentation.
@@ -33,17 +33,17 @@ Build a complete, portfolio-ready UX project repository with proper structure an
 **Time:** 8-13 hours over 6 weeks
 **Format:** Focused hands-on exercises with essential concepts
 **Outcome:** Working knowledge of developer workflows, portfolio-ready skills
-**Philosophy:** Practical, focused content—get the flavor without the overwhelm
+**Philosophy:** Practical, focused content
 
 ### Express Track (Time-Constrained)
 **Time:** 75-90 minutes total
 **Format:** Bare minimum to be functional, AI-assisted learning prompts
-**Outcome:** Operational quickly, return for depth when needed
+**Outcome:** Operationally confident, return for depth when needed
 
 ### Explore Deeper (Optional)
 **Time:** Additional 8-12 hours
 **Format:** Advanced topics, edge cases, best practices
-**Outcome:** Mastery-level knowledge
+**Outcome:** Beginner to Intermediate
 **When to use:** After completing standard track, when encountering specific challenges, or when you want comprehensive understanding
 
 Each week includes standard, express, and optional exploration versions—choose based on your available time and learning goals.
@@ -54,9 +54,8 @@ Each week includes standard, express, and optional exploration versions—choose
 
 **UX professionals who need to:**
 - Collaborate effectively with development teams using their tools and workflows
-- Document research findings and design decisions in version control
+- Document decisions with version control
 - Manage design system documentation alongside developers
-- Stay employable by understanding modern development practices
 - Bridge the gap between design and engineering
 
 **No programming experience required.** This curriculum teaches you to understand and use developer workflows for UX work. You're learning to meet developers where they are, using the tools and processes they rely on daily.
@@ -79,7 +78,6 @@ By Week 6, you'll have:
 - Professional documentation structure
 - Working knowledge of Git workflows
 - Collaboration skills matching development teams
-- Portfolio piece demonstrating technical proficiency
 
 ---
 
@@ -130,19 +128,6 @@ By Week 6, you'll have:
 
 ---
 
-## Comparison to Other Courses
-
-**LinkedIn Learning Git courses:** 1-4 hours of video (developer-focused)
-**This program (Standard Track):** 8-13 hours hands-on practice (UX-focused)
-**This program (Express Track):** 75-90 minutes (functional basics)
-**This program (with Explore Deeper):** 16-25 hours (mastery)
-
-**The difference:** Developer courses teach Git for code management. This program teaches Git from a UX perspective—for documentation, research repositories, and design collaboration. You'll learn the same professional tools developers use, applied to your actual UX work.
-
-**The approach:** Streamlined, practical content focused on what UX professionals need to know. Core concepts are presented clearly and applied through hands-on exercises. Advanced topics and edge cases are available in optional "Explore Deeper" sections when you need them.
-
----
-
 ## Getting Started
 
 1. Start with `01-week1-prerequisites-check.md`
@@ -160,9 +145,8 @@ By Week 6, you'll have:
 - Optional "Explore Deeper" files cover advanced scenarios (Weeks 1, 2, 4, 5)
 - AI prompts for custom learning
 - Solutions files show expected outcomes
-- Google is your friend (developers use it constantly)
 
-**Remember:** Everyone struggles with Git at first—including developers. The concepts are unfamiliar but they're powerful. Give it time. **This is career development—you're learning skills that make you more effective and employable.**
+**Remember:** Everyone struggles with Git at first—including developers. Give it time. **This is career development—you're learning skills that make you more effective and employable.**
 
 **Learning strategy:** Start with standard track materials to build working knowledge. When you encounter specific challenges or want comprehensive understanding, consult the explore deeper files. Focus on what's relevant to your current needs and return for additional topics as your work requires them.
 
@@ -174,49 +158,25 @@ By Week 6, you'll have:
 - Understand and use the same version control tools as your development team
 - Collaborate using branches and pull requests—the standard developer workflow
 - Document research and design decisions in ways developers can easily review
-- Communicate more effectively with engineering teams
-- Contribute to design system repositories and collaborative projects
-- Demonstrate technical proficiency that enhances your employability
 
 **This makes you more valuable because:**
 - You speak the developer's language for version control and collaboration
 - You can contribute directly to repositories without requiring developer assistance
 - You understand the constraints and workflows developers navigate daily
-- You bridge the gap between design and engineering more effectively
 
 **Next steps:**
 - Apply these skills to real projects immediately
 - Share this knowledge with your UX team
-- Contribute to design system repositories
 - Participate in cross-functional initiatives with confidence
-- Continue learning from developers—you now have common ground
 
----
-
-## Program Structure
-
-**Weeks 1-4: Foundations**
-Master the tools and core workflows through streamlined, hands-on practice. Can be taken as standalone "Git & GitHub Foundations for UX" course (6-8 hours).
-
-**Weeks 5-6: Applied Practice**
-Professional collaboration and real project setup. Can be taken as standalone "Collaborative UX Documentation with Git" course (4-6 hours, requires Weeks 1-4 or equivalent knowledge).
-
-**Design philosophy:**
-- **Core lessons:** Focused on essential concepts to build working knowledge
-- **Practice files:** Streamlined to practical skills without overwhelming detail
-- **Explore Deeper:** Comprehensive coverage for mastery or troubleshooting specific challenges
-- **Applied learning:** Theory connected to practical UX workflows throughout
-
----
+--- 
 
 ## Notes
 
 - Commands are Mac-specific (Terminal, keyboard shortcuts)
 - GitHub account required
 - No programming knowledge needed
-- Focus on UX workflows, not software development
-- Portfolio-ready work by completion
-- **Foundation for future learning:** Understanding these fundamentals enables you to effectively direct AI tools to generate documentation drafts while maintaining accountability for the final output—you'll know how to review, edit, and refine what's generated
+- Course focus is on UX workflows, not software development
 
 ---
 
@@ -228,6 +188,4 @@ Professional collaboration and real project setup. Can be taken as standalone "C
 - v2.0 (Jan 17, 2025): Streamlined practice files by 40-70%, added optional "Explore Deeper" content, reduced total time from 15-20 hours to 8-13 hours while preserving depth through optional materials
 - v1.0 (Jan 17, 2025): Initial release
 
----
 
-*This curriculum bridges the gap between UX and development teams by teaching you to understand and use developer workflows. You'll learn version control, collaboration practices, and documentation standards that developers rely on—applied to UX research, design documentation, and cross-functional collaboration. By learning to meet developers where they are, you become a more effective collaborator and a more employable UX professional.*
