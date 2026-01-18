@@ -30,16 +30,23 @@ Build a complete, portfolio-ready UX project repository with proper structure an
 ## Learning Paths
 
 ### Standard Track (Recommended)
-**Time:** 15-20 hours over 6 weeks  
-**Format:** Comprehensive lessons with daily practice exercises  
+**Time:** 8-13 hours over 6 weeks
+**Format:** Focused hands-on exercises with essential concepts
 **Outcome:** Deep understanding and portfolio-ready skills
+**Philosophy:** Learn by doing—get the flavor without the overwhelm
 
 ### Express Track (Time-Constrained)
-**Time:** 75-90 minutes total  
-**Format:** Bare minimum to be functional, AI-assisted learning prompts  
+**Time:** 75-90 minutes total
+**Format:** Bare minimum to be functional, AI-assisted learning prompts
 **Outcome:** Operational quickly, return for depth when needed
 
-Each week includes both standard and express versions—choose based on your available time.
+### Explore Deeper (Optional)
+**Time:** Additional 8-12 hours
+**Format:** Advanced topics, edge cases, best practices
+**Outcome:** Mastery-level knowledge
+**When to use:** After completing standard track, when encountering specific challenges, or when you want comprehensive understanding
+
+Each week includes standard, express, and optional exploration versions—choose based on your available time and learning goals.
 
 ---
 
@@ -79,42 +86,58 @@ By Week 6, you'll have:
 **Each week includes:**
 1. **Prerequisites check** - Verify you're ready to start
 2. **Main instructions** - Step-by-step lesson with examples
-3. **Practice exercises** - Hands-on activities
+3. **Practice exercises** - Streamlined, hands-on activities (just the essentials)
 4. **Solution files** - Reference for expected outcomes
 5. **Express version** - Fast track if time is limited
+6. **Explore deeper** - Optional advanced content (Weeks 1, 2, 4, 5)
 
 **File naming convention:**
-- `00-weekX-express.md` - Fast track version
+- `00-weekX-express.md` - Fast track version (~10-20 min per week)
 - `01-weekX-prerequisites-check.md` - Setup verification
 - `02-weekX-instructions.md` - Main lesson
-- `03-weekX-practice-*.md` - Practice files
+- `03-weekX-practice-*.md` - Practice files (streamlined for essential learning)
 - `04-weekX-practice-*.md` - Additional exercises
 - `05-weekX-solution-*.md` - Expected outcomes
+- `06-weekX-explore-deeper.md` - Optional advanced topics (when applicable)
+
+**Learning approach:** Practice files focus on building confidence through hands-on experience. Once comfortable with the basics, optionally explore deeper topics when needed.
 
 ---
 
 ## Time Commitment
 
-**Standard Track:**
-- Week 1: 1-2 hours
-- Week 2: 1.5-2 hours
-- Week 3: 2.5-3.5 hours (conceptually hardest)
-- Week 4: 2-3 hours
-- Week 5: 2.5-3.5 hours
-- Week 6: 2-4 hours (varies by project complexity)
+**Standard Track (streamlined for efficiency):**
+- Week 1: 45-75 minutes (Terminal & Markdown basics)
+- Week 2: 1-1.5 hours (VS Code setup)
+- Week 3: 2-3 hours (Git fundamentals - conceptually hardest)
+- Week 4: 1-1.5 hours (GitHub & remote repos)
+- Week 5: 1.5-2.5 hours (Branching & collaboration)
+- Week 6: 2-3 hours (Real project setup - varies by complexity)
+- **Total: 8-13 hours**
 
 **Express Track:**
 - All weeks combined: 75-90 minutes
 - Return to standard lessons as needed
 
+**Explore Deeper (optional):**
+- Week 1: +1.5-2 hours (Advanced markdown, terminal commands)
+- Week 2: +2-3 hours (VS Code mastery, productivity)
+- Week 4: +2-3 hours (Remote Git deep dive, troubleshooting)
+- Week 5: +2.5-4 hours (Advanced branching, PR workflows)
+- **Total optional content: 8-12 additional hours**
+
 ---
 
 ## Comparison to Other Courses
 
-**LinkedIn Learning Git courses:** 1-4 hours of video content (developer-focused)  
-**This program:** 15-20 hours with hands-on practice (UX-focused)
+**LinkedIn Learning Git courses:** 1-4 hours of video (developer-focused)
+**This program (Standard Track):** 8-13 hours hands-on practice (UX-focused)
+**This program (Express Track):** 75-90 minutes (functional basics)
+**This program (with Explore Deeper):** 16-25 hours (mastery)
 
-The difference: Developer courses teach Git for code management. This program teaches Git for UX documentation, research repositories, and design and prototype collaboration. You'll apply the same professional tools to your actual work.
+**The difference:** Developer courses teach Git for code management. This program teaches Git for UX documentation, research repositories, and design collaboration. You'll apply the same professional tools to your actual work.
+
+**The philosophy:** Give you the flavor and confidence through focused practice. See the "aha!" moments (like VS Code showing markdown changes in real-time) without overwhelming detail. Advanced topics available when you need them.
 
 ---
 
@@ -132,11 +155,14 @@ The difference: Developer courses teach Git for code management. This program te
 
 **When you get stuck:**
 - Each lesson includes troubleshooting sections
+- Optional "Explore Deeper" files cover advanced scenarios (Weeks 1, 2, 4, 5)
 - AI prompts for custom learning
 - Solutions files show expected outcomes
 - Google is your friend (developers use it constantly)
 
 **Remember:** Everyone struggles with Git at first. The concepts are foreign but they're powerful. Give it time. **Think of it as on-the-job training**.
+
+**Learning strategy:** Start with standard track practice files to build confidence. When you encounter specific challenges or want deeper understanding, consult the explore deeper files. You don't need to read everything—learn what you need, when you need it.
 
 ---
 
@@ -162,10 +188,16 @@ The difference: Developer courses teach Git for code management. This program te
 ## Program Structure
 
 **Weeks 1-4: Foundations**
-Master the tools and core workflows. Can be taken as standalone "Git & GitHub Foundations for UX" course.
+Master the tools and core workflows through streamlined, hands-on practice. Can be taken as standalone "Git & GitHub Foundations for UX" course (6-8 hours).
 
 **Weeks 5-6: Applied Practice**
-Professional collaboration and real project setup. Can be taken as standalone "Collaborative UX Documentation with Git" course (requires Weeks 1-4 or equivalent knowledge).
+Professional collaboration and real project setup. Can be taken as standalone "Collaborative UX Documentation with Git" course (4-6 hours, requires Weeks 1-4 or equivalent knowledge).
+
+**Design philosophy:**
+- **Core lessons:** Just enough to build confidence and competence
+- **Practice files:** Streamlined to essential concepts and "aha!" moments
+- **Explore Deeper:** Advanced content for those who want mastery or encounter edge cases
+- **Learn by doing:** Minimal reading, maximum hands-on practice
 
 ---
 
@@ -180,9 +212,13 @@ Professional collaboration and real project setup. Can be taken as standalone "C
 ---
 
 **Created by:** Patrick Keating
-**Date:** January 17, 2025  
-**Version:** 1.0
+**Last Updated:** January 17, 2025
+**Version:** 2.0
+
+**Version History:**
+- v2.0 (Jan 17, 2025): Streamlined practice files by 40-70%, added optional "Explore Deeper" content, reduced total time from 15-20 hours to 8-13 hours while preserving depth through optional materials
+- v1.0 (Jan 17, 2025): Initial release
 
 ---
 
-*This curriculum bridges the gap between UX and development teams by teaching version control through the lens of design documentation and research workflows.*
+*This curriculum bridges the gap between UX and development teams by teaching version control through the lens of design documentation and research workflows. Streamlined for efficiency—learn by doing, not by reading.*
