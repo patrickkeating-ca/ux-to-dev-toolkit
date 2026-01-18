@@ -39,7 +39,7 @@ Build a complete, portfolio-ready UX project repository with proper structure an
 **Why start here:** Get functional fast, then return to Comprehensive lessons only when you need deeper understanding of specific topics.
 
 ### Comprehensive Track (Optional Deep Dive)
-**Time:** 8-13 hours over 6 weeks
+**Time:** 7-10 hours over 6 weeks
 **Files:** C-files (detailed instructions)
 **Format:** Extensive lessons with practice exercises and troubleshooting
 **Outcome:** Strong foundational knowledge, portfolio-ready skills
@@ -112,13 +112,13 @@ By Week 6, you'll have:
 - Return to comprehensive lessons (C-files) as needed
 
 **Comprehensive Track (C-files):**
-- Week 1: 45-75 minutes (Terminal & Markdown basics)
-- Week 2: 1-1.5 hours (VS Code setup)
-- Week 3: 2-3 hours (Git fundamentals - conceptually hardest)
+- Week 1: 30-45 minutes (Terminal & Markdown basics)
+- Week 2: 45-75 minutes (VS Code setup)
+- Week 3: 1.5-2.5 hours (Git fundamentals - conceptually hardest)
 - Week 4: 1-1.5 hours (GitHub & remote repos)
-- Week 5: 1.5-2.5 hours (Branching & collaboration)
-- Week 6: 2-3 hours (Real project setup - varies by complexity)
-- **Total: 8-13 hours**
+- Week 5: 1.5-2 hours (Branching & collaboration)
+- Week 6: 1.5-2.5 hours (Real project setup - varies by complexity)
+- **Total: 7-10 hours**
 
 ---
 
@@ -131,7 +131,7 @@ By Week 6, you'll have:
 
 **Alternative (Comprehensive Track):**
 1. Start with `B-week1-prerequisites-check.md` for setup verification
-2. Follow `C-week*-instructions.md` files for detailed lessons (8-13 hours total)
+2. Follow `C-week*-instructions.md` files for detailed lessons (7-10 hours total)
 3. Practice daily (even 10 minutes helps)
 
 **Both paths:**
