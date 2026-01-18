@@ -47,7 +47,7 @@ The asterisk shows you're on the feature branch.
 
 ```bash
 # Make changes to files
-code 03-week5-practice-feature.md
+code D-week5-practice-feature.md
 # [edit and save]
 
 # Check status
@@ -61,7 +61,7 @@ On branch feature/add-collaboration-guide
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
-        modified:   03-week5-practice-feature.md
+        modified:   D-week5-practice-feature.md
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
@@ -254,7 +254,7 @@ git pull
 ```
 Updating def5678..ghi9012
 Fast-forward
- 03-week5-practice-feature.md | 15 +++++++++++++++
+ D-week5-practice-feature.md | 15 +++++++++++++++
  1 file changed, 15 insertions(+)
 ```
 

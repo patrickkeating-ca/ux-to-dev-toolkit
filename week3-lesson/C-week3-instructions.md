@@ -88,6 +88,18 @@ You should see `.git` in the list (the `-a` flag shows hidden files).
 
 **Success check:** You see "Initialized empty Git repository" message
 
+### Important: Local Storage
+
+**Critical understanding:** When you run `git init`, Git starts tracking version history *locally* on your machine. This is NOT yet stored in a remote repository like GitHub.
+
+**What this means:**
+- Everything stays on your computer in the hidden `.git` folder
+- No internet connection needed
+- No cloud backup yet
+- This is Week 3 - we'll cover GitHub (remote repos) in Week 4
+
+**For now:** Think of Git as your local time machine. It's saving snapshots of your project right here on your computer.
+
 ---
 
 ## Part 3: Check Status (1 minute)
@@ -109,9 +121,9 @@ No commits yet
 
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-        03-week3-practice-repository.md
-        04-week3-practice-gitignore.txt
-        05-week3-solution-history.md
+        D-week3-practice-repository.md
+        E-week3-practice-gitignore.txt
+        F-week3-solution-history.md
 
 nothing added to commit but untracked files present (use "git add" to track)
 ```
@@ -138,7 +150,7 @@ Git requires two steps to save changes:
 
 **Stage one file:**
 ```bash
-git add 03-week3-practice-repository.md
+git add D-week3-practice-repository.md
 ```
 
 **Check what happened:**
@@ -150,11 +162,11 @@ git status
 ```
 Changes to be committed:
   (use "git rm --cached <file>..." to unstage)
-        new file:   03-week3-practice-repository.md
+        new file:   D-week3-practice-repository.md
 
 Untracked files:
-        04-week3-practice-gitignore.txt
-        05-week3-solution-history.md
+        E-week3-practice-gitignore.txt
+        F-week3-solution-history.md
 ```
 
 **Translation:**
@@ -198,9 +210,9 @@ The `-m` flag lets you write the message in the same command.
 ```
 [main (root-commit) abc123] Initial commit - added practice files
  3 files changed, 150 insertions(+)
- create mode 100644 03-week3-practice-repository.md
- create mode 100644 04-week3-practice-gitignore.txt
- create mode 100644 05-week3-solution-history.md
+ create mode 100644 D-week3-practice-repository.md
+ create mode 100644 E-week3-practice-gitignore.txt
+ create mode 100644 F-week3-solution-history.md
 ```
 
 **What just happened:**
@@ -224,6 +236,26 @@ nothing to commit, working tree clean
 
 **Success check:** Status says "working tree clean"
 
+### Why Commit Messages Matter
+
+You just created your first commit with a descriptive message. Here's why this matters:
+
+**Auditing purposes:**
+Commit history creates an audit trail of what changed, when, and why. This is valuable for:
+- **Understanding project evolution:** See how decisions were made over time
+- **Tracking down bugs:** Find when a problem was introduced
+- **Documenting decisions:** Your commit messages explain the "why"
+- **Reviewing with stakeholders:** Show what you've accomplished
+
+**AI-powered summaries:**
+You can use AI tools to summarize your commit history. Example prompt:
+> "Here are my git commits for the past week [paste git log output]. Summarize what I accomplished and create a status update for my manager."
+
+**Professional practice:** Good commit messages = good documentation. Your future self (and your team) will thank you.
+
+**Reverting when needed:**
+If something goes wrong, you can always revert to a previous version - back to "when it was working." We'll cover this in Part 11.
+
 ---
 
 ## Part 6: Make Changes and Commit Again (3 minutes)
@@ -239,7 +271,7 @@ Now practice the cycle you'll use constantly: edit → stage → commit
 code .
 ```
 
-**Open `03-week3-practice-repository.md` and make any change:**
+**Open `D-week3-practice-repository.md` and make any change:**
 - Add a line
 - Change some text
 - Whatever you want
@@ -259,7 +291,7 @@ On branch main
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
-        modified:   03-week3-practice-repository.md
+        modified:   D-week3-practice-repository.md
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
@@ -270,7 +302,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 **View the changes:**
 ```bash
-git diff 03-week3-practice-repository.md
+git diff D-week3-practice-repository.md
 ```
 
 **You'll see:**
@@ -285,7 +317,7 @@ Press `q` to exit the diff view.
 
 **Stage:**
 ```bash
-git add 03-week3-practice-repository.md
+git add D-week3-practice-repository.md
 ```
 
 **Commit:**
@@ -494,6 +526,64 @@ You should see at least 4 commits:
 5. (Your edit to notes.md)
 
 **If you have these commits, you did it correctly!**
+
+---
+
+## Part 11: Safety Net - Going Back When Things Break (2 minutes)
+
+### The Power of Version Control
+
+**The most important Git benefit:** If something goes wrong, you can always revert to "when it was working."
+
+This is what makes Git invaluable. You can experiment, make mistakes, and always get back to a known good state.
+
+### View What You Had Before
+
+**See a specific commit:**
+```bash
+git show abc123
+```
+
+Replace `abc123` with any commit ID from `git log --oneline`. This shows you exactly what that snapshot looked like.
+
+### Revert to a Previous Version
+
+**If you need to undo changes from a commit:**
+```bash
+git revert abc123
+```
+
+This creates a NEW commit that undoes the changes from commit `abc123`.
+
+**Why it's safe:**
+- Doesn't delete history
+- Creates a new commit that reverses changes
+- You can undo the undo if needed
+
+### Alternative: Reset (Use Carefully)
+
+**Undo last commit but keep changes:**
+```bash
+git reset --soft HEAD~1
+```
+
+This puts changes back into staging area - useful if you committed too early.
+
+**Undo last commit and discard changes:**
+```bash
+git reset --hard HEAD~1
+```
+
+**Warning:** `--hard` permanently deletes your changes. Only use when you're absolutely sure.
+
+### Practice This Later
+
+Once you have more commits, try:
+1. Use `git log --oneline` to see your commits
+2. Use `git show <commit-id>` to view an old version
+3. Know that you can always go back if needed
+
+**Success check:** Understanding that every commit is a restore point gives you confidence to experiment
 
 ---
 

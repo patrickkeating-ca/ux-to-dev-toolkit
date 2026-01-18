@@ -107,9 +107,9 @@ This week focuses on VS Code essentials:
 
 For this lesson, download these files to your `week2-practice` folder:
 
-1. `03-week2-practice-document.md` - Sample markdown to edit
-2. `04-week2-practice-shortcuts.md` - Keyboard shortcut practice
-3. `05-week2-solution-document.md` - Completed version for comparison
+1. `D-week2-practice-document.md` - Sample markdown to edit
+2. `E-week2-practice-shortcuts.md` - Keyboard shortcut practice
+3. `F-week2-solution-document.md` - Completed version for comparison
 
 **How to get them:**
 - Download from lesson folder
@@ -136,7 +136,7 @@ You should see the practice files.
 
 **All checked?** 
 
-Proceed to `02-week2-instructions.md`
+Proceed to `C-week2-instructions.md`
 
 ---
 
@@ -173,4 +173,4 @@ Proceed to `02-week2-instructions.md`
 
 ## Ready to Continue?
 
-Once you've completed this checklist, open `02-week2-instructions.md` to begin the lesson.
+Once you've completed this checklist, open `C-week2-instructions.md` to begin the lesson.

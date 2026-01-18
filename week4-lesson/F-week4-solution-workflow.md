@@ -240,8 +240,8 @@ git pull
 
 **Expected conflict message:**
 ```
-Auto-merging 03-week4-practice-conflict.md
-CONFLICT (content): Merge conflict in 03-week4-practice-conflict.md
+Auto-merging [A-F]-week4-practice-conflict.md
+CONFLICT (content): Merge conflict in [A-F]-week4-practice-conflict.md
 Automatic merge failed; fix conflicts and then commit the result.
 ```
 
@@ -263,7 +263,7 @@ You have unmerged paths.
 
 Unmerged paths:
   (use "git add <file>..." to mark resolution)
-        both modified:   03-week4-practice-conflict.md
+        both modified:   [A-F]-week4-practice-conflict.md
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
@@ -308,7 +308,7 @@ Sketch
 
 **Commands:**
 ```bash
-git add 03-week4-practice-conflict.md
+git add [A-F]-week4-practice-conflict.md
 git status
 ```
 
@@ -322,7 +322,7 @@ All conflicts fixed but you are still merging.
   (use "git commit" to conclude merge)
 
 Changes to be committed:
-        modified:   03-week4-practice-conflict.md
+        modified:   [A-F]-week4-practice-conflict.md
 ```
 
 **Commit the resolution:**

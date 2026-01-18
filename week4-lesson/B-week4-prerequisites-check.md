@@ -183,9 +183,9 @@ This week connects local Git to GitHub:
 
 For this lesson, download these files to your `week4-practice` folder:
 
-1. `03-week4-practice-collaboration.md` - File for practicing push/pull
-2. `04-week4-practice-conflict.md` - Simple merge conflict to resolve
-3. `05-week4-solution-workflow.md` - Expected commands and output
+1. `[A-F]-week4-practice-collaboration.md` - File for practicing push/pull
+2. `[A-F]-week4-practice-conflict.md` - Simple merge conflict to resolve
+3. `[A-F]-week4-solution-workflow.md` - Expected commands and output
 
 **How to get them:**
 - Download from lesson folder
@@ -258,7 +258,7 @@ GitHub requires authentication to push commits.
 
 **All checked?**
 
-Proceed to `02-week4-instructions.md`
+Proceed to `[A-F]-week4-instructions.md`
 
 ---
 
@@ -344,7 +344,7 @@ Week 3 taught you Git locally. Week 4 teaches you Git collaboratively.
 
 ## Ready?
 
-Once you've completed this checklist, verified your GitHub account, and confirmed Week 3 commits exist, proceed to `02-week4-instructions.md` to begin connecting Git to GitHub.
+Once you've completed this checklist, verified your GitHub account, and confirmed Week 3 commits exist, proceed to `[A-F]-week4-instructions.md` to begin connecting Git to GitHub.
 
 You're about to put your version control in the cloud.
 

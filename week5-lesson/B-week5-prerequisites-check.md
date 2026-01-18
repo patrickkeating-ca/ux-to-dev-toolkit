@@ -187,9 +187,11 @@ Week 5 introduces **professional collaboration workflow:**
 
 For this lesson, download these files to your `week5-practice` folder:
 
-1. `03-week5-practice-feature.md` - File for feature branch practice
-2. `04-week5-practice-pr-template.md` - Pull request description template
-3. `05-week5-solution-branches.md` - Expected branch workflow
+1. `D-week5-practice-feature.md` - File for feature branch practice
+2. `F-week5-solution-branches.md` - Expected branch workflow
+
+**Reference materials:**
+- `docs/pr-template.md` - Pull request description template (located in the root docs folder for easy access)
 
 **How to get them:**
 - Download from lesson folder
@@ -263,7 +265,7 @@ ls
 
 **All checked?**
 
-Proceed to `02-week5-instructions.md`
+Proceed to `C-week5-instructions.md`
 
 ---
 
@@ -386,7 +388,7 @@ If Weeks 1-4 feel solid, Week 5 will click. You're learning the workflow that po
 
 ## Ready?
 
-Once you've completed this checklist and set up your Week 5 practice repository, proceed to `02-week5-instructions.md` to learn professional Git collaboration.
+Once you've completed this checklist and set up your Week 5 practice repository, proceed to `C-week5-instructions.md` to learn professional Git collaboration.
 
 You're about to learn how teams actually work together.
 

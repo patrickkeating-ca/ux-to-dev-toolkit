@@ -35,18 +35,19 @@ Build a complete, portfolio-ready UX project repository with proper structure an
 **Outcome:** Working knowledge of developer workflows, portfolio-ready skills
 **Philosophy:** Practical, focused content
 
-### Express Track (Time-Constrained)
+### Express Track (Recommended Starting Point)
 **Time:** 75-90 minutes total
-**Format:** Bare minimum to be functional, AI-assisted learning prompts
-**Outcome:** Operationally confident, return for depth when needed
+**Format:** A-files only - streamlined lessons emphasizing essentials and AI-assisted workflows
+**Outcome:** Operationally confident, ready to use developer tools in daily work
+**Philosophy:** Learn core concepts, use AI for syntax and commands
 
-### Explore Deeper (Optional)
-**Time:** Additional 8-12 hours
-**Format:** Advanced topics, edge cases, best practices
-**Outcome:** Beginner to Intermediate
-**When to use:** After completing standard track, when encountering specific challenges, or when you want comprehensive understanding
+### Comprehensive Track (For Deep Understanding)
+**Time:** 8-13 hours over 6 weeks
+**Format:** C-files - detailed lessons with extensive practice and troubleshooting
+**Outcome:** Strong foundational knowledge, portfolio-ready skills
+**When to use:** When you want thorough understanding, are training others, or prefer comprehensive learning
 
-Each week includes standard, express, and optional exploration versions—choose based on your available time and learning goals.
+Choose your learning path based on available time and goals. You can always return to comprehensive lessons (C-files) when you need deeper understanding of specific topics.
 
 ---
 
@@ -84,29 +85,35 @@ By Week 6, you'll have:
 ## How It Works
 
 **Each week includes:**
-1. **Prerequisites check** - Verify you're ready to start
-2. **Main instructions** - Step-by-step lesson with examples
-3. **Practice exercises** - Streamlined, hands-on activities (just the essentials)
-4. **Solution files** - Reference for expected outcomes
-5. **Express version** - Fast track if time is limited
-6. **Explore deeper** - Optional advanced content (Weeks 1, 2, 4, 5)
+1. **Express track (A-files)** - Streamlined lessons emphasizing core concepts (~10-30 min)
+2. **Prerequisites check (B-files)** - Verify you're ready to start
+3. **Comprehensive instructions (C-files)** - Detailed step-by-step lessons (1-3 hours)
+4. **Practice exercises (D & E-files)** - Hands-on activities and templates
+5. **Solution files (F-files)** - Reference for expected outcomes
 
 **File naming convention:**
-- `00-weekX-express.md` - Fast track version (~10-20 min per week)
-- `01-weekX-prerequisites-check.md` - Setup verification
-- `02-weekX-instructions.md` - Main lesson
-- `03-weekX-practice-*.md` - Practice files (streamlined for essential learning)
-- `04-weekX-practice-*.md` - Additional exercises
-- `05-weekX-solution-*.md` - Expected outcomes
-- `06-weekX-explore-deeper.md` - Optional advanced topics (when applicable)
+- `A-weekX-express.md` - Express track version (~10-30 min per week) - PRIMARY LEARNING PATH
+- `B-weekX-prerequisites-check.md` - Setup verification
+- `C-weekX-instructions.md` - Comprehensive lesson (1-3 hours)
+- `D-weekX-practice-*.md` - Practice exercises
+- `E-weekX-practice-*.md` - Additional exercises or templates
+- `F-weekX-solution-*.md` - Expected outcomes and reference solutions
 
-**Learning approach:** Practice files are streamlined to focus on essential concepts, with hands-on exercises to build practical skills. Once comfortable with the basics, optionally explore deeper topics for comprehensive understanding or when you encounter specific challenges.
+**Reference materials:**
+- `docs/` folder contains templates and supplementary materials (e.g., PR template)
+
+**Learning approach:** Start with Express track (A-files) to quickly become operational with developer tools. Return to Comprehensive track (C-files) when you need deeper understanding or want to master specific topics.
 
 ---
 
 ## Time Commitment
 
-**Standard Track (streamlined for efficiency):**
+**Express Track (A-files):**
+- Week 1-6: 75-90 minutes total
+- Focus on core concepts and AI-assisted workflows
+- Return to comprehensive lessons (C-files) as needed
+
+**Comprehensive Track (C-files):**
 - Week 1: 45-75 minutes (Terminal & Markdown basics)
 - Week 2: 1-1.5 hours (VS Code setup)
 - Week 3: 2-3 hours (Git fundamentals - conceptually hardest)
@@ -115,23 +122,12 @@ By Week 6, you'll have:
 - Week 6: 2-3 hours (Real project setup - varies by complexity)
 - **Total: 8-13 hours**
 
-**Express Track:**
-- All weeks combined: 75-90 minutes
-- Return to standard lessons as needed
-
-**Explore Deeper (optional):**
-- Week 1: +1.5-2 hours (Advanced markdown, terminal commands)
-- Week 2: +2-3 hours (VS Code mastery, productivity)
-- Week 4: +2-3 hours (Remote Git deep dive, troubleshooting)
-- Week 5: +2.5-4 hours (Advanced branching, PR workflows)
-- **Total optional content: 8-12 additional hours**
-
 ---
 
 ## Getting Started
 
-1. Start with `01-week1-prerequisites-check.md`
-2. Or, if time is tight, try `00-week1-express.md`
+1. Start with `B-week1-prerequisites-check.md`
+2. Or, if time is tight, try `A-week1-express.md`
 3. Complete weeks sequentially—each builds on previous skills
 4. Practice daily (even 10 minutes helps)
 5. Use AI assistants when stuck (prompts provided)
@@ -142,13 +138,14 @@ By Week 6, you'll have:
 
 **When you get stuck:**
 - Each lesson includes troubleshooting sections
-- Optional "Explore Deeper" files cover advanced scenarios (Weeks 1, 2, 4, 5)
-- AI prompts for custom learning
-- Solutions files show expected outcomes
+- Comprehensive lessons (C-files) provide detailed explanations
+- AI prompts for custom learning (especially in Week 6)
+- Solution files (F-files) show expected outcomes
+- Reference materials in docs/ folder
 
 **Remember:** Everyone struggles with Git at first—including developers. Give it time. **This is career development—you're learning skills that make you more effective and employable.**
 
-**Learning strategy:** Start with standard track materials to build working knowledge. When you encounter specific challenges or want comprehensive understanding, consult the explore deeper files. Focus on what's relevant to your current needs and return for additional topics as your work requires them.
+**Learning strategy:** Start with Express track (A-files) to build working knowledge quickly. When you encounter specific challenges or want comprehensive understanding, refer to the Comprehensive lessons (C-files). Focus on what's relevant to your current needs and return for additional depth as your work requires it.
 
 ---
 
@@ -181,10 +178,11 @@ By Week 6, you'll have:
 ---
 
 **Created by:** Patrick Keating
-**Last Updated:** January 17, 2025
-**Version:** 2.0
+**Last Updated:** January 18, 2026
+**Version:** 3.0
 
 **Version History:**
+- v3.0 (Jan 18, 2026): Restructured to Express-first approach with letter-based file naming (A-F). Express track now primary learning path, emphasizing AI-assisted workflows. Removed separate "Explore Deeper" files in favor of Comprehensive track (C-files). Added docs/ folder for reference materials.
 - v2.0 (Jan 17, 2025): Streamlined practice files by 40-70%, added optional "Explore Deeper" content, reduced total time from 15-20 hours to 8-13 hours while preserving depth through optional materials
 - v1.0 (Jan 17, 2025): Initial release
 

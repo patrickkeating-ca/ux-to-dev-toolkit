@@ -23,7 +23,7 @@ Practice the push/pull workflow with GitHub. You'll make changes locally and on 
 
 **Commit and push:**
 ```bash
-git add 03-week4-practice-collaboration.md
+git add [A-F]-week4-practice-collaboration.md
 git commit -m "Added my personal information"
 git push
 ```

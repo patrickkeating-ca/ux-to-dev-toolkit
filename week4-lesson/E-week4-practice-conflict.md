@@ -91,7 +91,7 @@ The version from GitHub
 
 **Step 3: Commit your local changes**
 ```bash
-git add 04-week4-practice-conflict.md
+git add [A-F]-week4-practice-conflict.md
 git commit -m "Updated bio and priorities locally"
 ```
 
@@ -153,7 +153,7 @@ Sketch
 **After editing:**
 
 ```bash
-git add 04-week4-practice-conflict.md
+git add [A-F]-week4-practice-conflict.md
 git commit -m "Resolved merge conflict in practice file"
 git push
 ```

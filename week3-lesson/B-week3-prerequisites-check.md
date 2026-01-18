@@ -173,9 +173,9 @@ This week focuses on **local Git** - everything happens on your computer. No Git
 
 For this lesson, download these files to your `week3-practice` folder:
 
-1. `03-week3-practice-repository.md` - File to track with Git
-2. `04-week3-practice-gitignore.txt` - Practice creating .gitignore
-3. `05-week3-solution-history.md` - What your git log should look like
+1. `D-week3-practice-repository.md` - File to track with Git
+2. `E-week3-practice-gitignore.txt` - Practice creating .gitignore
+3. `F-week3-solution-history.md` - What your git log should look like
 
 **How to get them:**
 - Download from lesson folder
@@ -247,7 +247,7 @@ Before starting, understand the basic concept:
 
 **All checked?**
 
-Proceed to `02-week3-instructions.md`
+Proceed to `C-week3-instructions.md`
 
 ---
 
@@ -306,6 +306,6 @@ Git works differently. Trust the process. Do the exercises. It'll make sense.
 
 ## Ready?
 
-Once you've completed this checklist and verified Git works, proceed to `02-week3-instructions.md` to begin learning local Git operations.
+Once you've completed this checklist and verified Git works, proceed to `C-week3-instructions.md` to begin learning local Git operations.
 
 You've got this.

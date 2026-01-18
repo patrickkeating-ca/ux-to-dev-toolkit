@@ -173,9 +173,9 @@ Your UX Project Repository
 For this lesson, you'll use:
 
 1. The repository structure template from earlier lessons
-2. `03-week6-practice-setup.md` - Setup checklist
-3. `04-week6-practice-collaboration-guide.md` - Team guidelines
-4. `05-week6-solution-complete-repo.md` - Final repository example
+2. `[A-F]-week6-practice-setup.md` - Setup checklist
+3. `[A-F]-week6-practice-collaboration-guide.md` - Team guidelines
+4. `[A-F]-week6-solution-complete-repo.md` - Final repository example
 
 **Download these to a new folder:**
 ```bash
@@ -283,7 +283,7 @@ cd week6-final-project
 
 **All checked?**
 
-Proceed to `02-week6-instructions.md`
+Proceed to `[A-F]-week6-instructions.md`
 
 ---
 
@@ -428,7 +428,7 @@ Every command, every concept, every practice exercise prepared you for this week
 
 ## Ready?
 
-Once you've completed this checklist, verified all your skills, and set aside time for focused work, proceed to `02-week6-instructions.md` to create your complete UX project repository.
+Once you've completed this checklist, verified all your skills, and set aside time for focused work, proceed to `[A-F]-week6-instructions.md` to create your complete UX project repository.
 
 This is it. The final lesson. The complete integration.
 

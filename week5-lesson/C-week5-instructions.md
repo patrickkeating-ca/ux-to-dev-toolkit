@@ -133,13 +133,13 @@ The asterisk moved! You're now on the feature branch.
 **Add practice files to your repository:**
 
 ```bash
-git add 03-week5-practice-feature.md 04-week5-practice-pr-template.md 05-week5-solution-branches.md
+git add D-week5-practice-feature.md F-week5-solution-branches.md
 git commit -m "Added collaboration practice files"
 ```
 
 **Edit one of the files:**
 ```bash
-code 03-week5-practice-feature.md
+code D-week5-practice-feature.md
 ```
 
 Make any change (add text, modify sections). Save it.
@@ -325,7 +325,7 @@ In real teams:
 git checkout feature/add-collaboration-guide
 
 # Edit the file
-code 03-week5-practice-feature.md
+code D-week5-practice-feature.md
 # Add more examples
 
 # Commit the change
@@ -391,7 +391,7 @@ git pull
 ```
 Updating abc123..def456
 Fast-forward
- 03-week5-practice-feature.md | 10 ++++++++++
+ D-week5-practice-feature.md | 10 ++++++++++
  1 file changed, 10 insertions(+)
 ```
 

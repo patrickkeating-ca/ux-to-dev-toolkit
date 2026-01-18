@@ -4,7 +4,7 @@
 ### What You'll Learn
 
 By the end of this lesson, you'll:
-- Install essential VS Code extensions
+- Install Live Server extension for HTML/web development
 - Use keyboard shortcuts to work faster
 - Manage multiple files efficiently
 - Use the integrated terminal
@@ -14,9 +14,9 @@ By the end of this lesson, you'll:
 
 ---
 
-## Part 1: Install Essential Extensions (3 minutes)
+## Part 1: Install One Essential Extension (3 minutes)
 
-Extensions add functionality to VS Code. Think of them like apps for your editor.
+VS Code comes with powerful built-in features for markdown editing. We'll add just one extension for working with HTML and dynamic content.
 
 ### Opening Extensions Panel
 
@@ -25,41 +25,33 @@ Extensions add functionality to VS Code. Think of them like apps for your editor
 2. Press Command + Shift + X
 3. View menu → Extensions
 
-### Extensions to Install
+### The One Extension You Need
 
-**Install these one by one:**
-
-**1. Markdown All in One**
-- Search for: "Markdown All in One"
-- Publisher: Yu Zhang
+**Live Server**
+- Search for: "Live Server"
+- Publisher: Ritwick Dey
 - Click "Install"
-- **Why:** Keyboard shortcuts, auto-complete, table formatting
-
-**2. Markdown Preview Enhanced**
-- Search for: "Markdown Preview Enhanced"
-- Publisher: Yiyi Wang
-- Click "Install"
-- **Why:** Better preview, export options
-
-**3. Prettier - Code formatter**
-- Search for: "Prettier"
-- Publisher: Prettier
-- Click "Install"
-- **Why:** Auto-formats your markdown and code
-
-**4. GitLens (optional but helpful)**
-- Search for: "GitLens"
-- Publisher: GitKraken
-- Click "Install"
-- **Why:** Shows Git information inline (useful for Week 3)
+- **Why:** Preview HTML and dynamic content in real-time with auto-reload
+- **Future use:** Essential for Angular, React, and other web development frameworks
 
 ### Verify Installation
 
 1. Click Extensions icon again
 2. You should see "INSTALLED" section
-3. All four extensions should be listed there
+3. Live Server should be listed there
 
-**Success check:** Extensions installed without errors
+**Success check:** Live Server installed without errors
+
+### Built-in VS Code Features
+
+**For markdown editing, you don't need extensions!** VS Code includes:
+- Markdown preview (Command + Shift + V)
+- Side-by-side editing (Command + K, then V)
+- Syntax highlighting
+- Auto-completion
+- Keyboard shortcuts
+
+**Philosophy:** Use built-in features first. Only add extensions when you need specific functionality VS Code doesn't provide.
 
 ---
 
@@ -91,7 +83,7 @@ code .
 
 ### Practice These Shortcuts
 
-Open `04-week2-practice-shortcuts.md` and follow along.
+Open `E-week2-practice-shortcuts.md` and follow along.
 
 **Basic Navigation:**
 
@@ -113,18 +105,9 @@ Open `04-week2-practice-shortcuts.md` and follow along.
 | Command + D | Select next match | Multi-cursor magic |
 | Option + Up/Down | Move line | Reorder lines quickly |
 
-**Markdown Specific (with Markdown All in One):**
-
-| Shortcut | Action | Try It |
-|----------|--------|--------|
-| Command + B | Bold selection | Select text, press |
-| Command + I | Italic selection | Select text, press |
-| Control + Shift + ] | Increase heading level | On a heading line |
-| Control + Shift + [ | Decrease heading level | On a heading line |
-
 ### Practice Exercise
 
-1. Open `04-week2-practice-shortcuts.md`
+1. Open `E-week2-practice-shortcuts.md`
 2. Try each shortcut as you read about it
 3. Don't memorize - just try them
 4. The ones you use will stick naturally
@@ -139,7 +122,7 @@ Open `04-week2-practice-shortcuts.md` and follow along.
 
 **Open two files side by side:**
 
-1. Open `03-week2-practice-document.md`
+1. Open `D-week2-practice-document.md`
 2. Drag the tab to the right side of the editor
 3. Or: Right-click tab → "Split Right"
 4. Or: Command + \ (backslash)
@@ -227,13 +210,11 @@ touch test-from-terminal.md
 
 ### Preview Options
 
-**Basic preview (built-in):**
+**Built-in preview:**
 - Command + Shift + V: Preview in new tab
 - Command + K then V: Side-by-side preview
 
-**Enhanced preview (with extension):**
-- Right-click .md file → "Markdown Preview Enhanced: Open Preview"
-- Or: Command + K then V
+Both shortcuts use VS Code's built-in markdown preview - no extensions needed!
 
 ### Side-by-Side Editing
 
@@ -243,7 +224,7 @@ touch test-from-terminal.md
 3. Edit on left, see live preview on right
 4. Changes update instantly
 
-**Try it with `03-week2-practice-document.md`:**
+**Try it with `D-week2-practice-document.md`:**
 1. Open the file
 2. Command + K, V
 3. Make an edit (add bold text)
@@ -298,7 +279,7 @@ Or: Code → Settings → Settings
 **Format on Save:**
 - Search: "format on save"
 - Check the box
-- **Why:** Auto-formats when you save (needs Prettier)
+- **Why:** Auto-formats when you save (works with built-in formatters)
 
 ### Apply Settings
 
@@ -319,7 +300,7 @@ Changes take effect immediately. Try opening a markdown file to see word wrap wo
 
 ### The Challenge
 
-Open `03-week2-practice-document.md` and improve it using what you learned:
+Open `D-week2-practice-document.md` and improve it using what you learned:
 
 **Tasks:**
 1. Open file with side-by-side preview
@@ -336,7 +317,7 @@ Open `03-week2-practice-document.md` and improve it using what you learned:
 - Use at least 3 keyboard shortcuts
 - File should look professional when done
 
-**Compare your result to `05-week2-solution-document.md`**
+**Compare your result to `F-week2-solution-document.md`**
 
 Don't worry about matching exactly - focus on using the tools.
 
@@ -353,19 +334,20 @@ Don't worry about matching exactly - focus on using the tools.
 **Google:**
 - "VS Code keyboard shortcuts Mac"
 - "VS Code markdown preview"
-- "VS Code extensions for markdown"
+- "VS Code built-in features"
 
 **AI Assistants:**
 - "What's the keyboard shortcut for [action] in VS Code?"
 - "How do I split the editor in VS Code?"
-- "Show me useful VS Code extensions for markdown"
+- "How do I use VS Code's built-in markdown preview?"
 
 ### For Markdown
 
-**Use extensions you installed:**
-- Markdown All in One adds auto-complete
-- Type `#` and it suggests heading levels
-- Type `-` for automatic lists
+**Use built-in features:**
+- VS Code adds auto-complete for markdown
+- Type `#` for headings
+- Type `-` or `*` for lists
+- Use preview to verify formatting
 
 **Command Palette (Command + Shift + P):**
 - Type what you want to do
@@ -399,7 +381,7 @@ Don't worry about matching exactly - focus on using the tools.
 **Preview not showing:**
 - Make sure file ends in `.md`
 - Try closing and reopening preview
-- Check if Markdown Preview Enhanced is installed
+- Use Command + Shift + V for built-in preview
 
 **Terminal won't open:**
 - Try View → Terminal
