@@ -10,7 +10,10 @@
       "Bash(if [ -f .gitignore ])",
       "Bash(then cat .gitignore)",
       "Bash(else echo \"No .gitignore found\")",
-      "Bash(fi)"
+      "Bash(fi)",
+      "Bash(done)",
+      "Bash(cat:*)",
+      "Bash(git mv:*)"
     ]
   }
 }

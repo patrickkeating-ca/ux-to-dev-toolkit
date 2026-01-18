@@ -1,5 +1,5 @@
 # Git & GitHub for UX Professionals
-## A 6-Week Hands-On Learning Program
+## A 6-Lesson Hands-On Learning Program
 
 Learn version control, collaboration workflows, and professional documentation practices used by development teams—tailored specifically for UX professionals.
 
@@ -7,22 +7,22 @@ Learn version control, collaboration workflows, and professional documentation p
 
 ## What You'll Learn
 
-**Week 1: Terminal & Markdown Basics**
+**Lesson 1: Terminal & Markdown Basics**
 Learn command line navigation and markdown syntax for professional documentation.
 
-**Week 2: VS Code Setup & Workflow**
+**Lesson 2: VS Code Setup & Workflow**
 Set up your text and code editor with shortcuts and extensions for markdown editing.
 
-**Week 3: Git Basics (Local)**
+**Lesson 3: Git Basics (Local)**
 Master version control fundamentals—track changes, create commits, and maintain project history.
 
-**Week 4: GitHub & Remote Repos**
+**Lesson 4: GitHub & Remote Repos**
 Connect your local work to GitHub, collaborate with teams, and back up projects to a repository.
 
-**Week 5: Collaboration Workflow**
+**Lesson 5: Collaboration Workflow**
 Learn branches, pull requests, and code review.
 
-**Week 6: Real Project Setup**
+**Lesson 6: Real Project Setup**
 Build a complete, portfolio-ready UX project repository with proper structure and documentation.
 
 ---
@@ -31,7 +31,7 @@ Build a complete, portfolio-ready UX project repository with proper structure an
 
 ### Express Track (Recommended)
 **Time:** 75-90 minutes total
-**Files:** A-files only (one per week)
+**Files:** A-files only (one per lesson)
 **Format:** Streamlined lessons emphasizing core concepts and AI-assisted workflows
 **Outcome:** Operationally confident, ready to use developer tools in daily work
 **Philosophy:** Learn fundamentals, use AI for syntax and commands
@@ -39,13 +39,13 @@ Build a complete, portfolio-ready UX project repository with proper structure an
 **Why start here:** Get functional fast, then return to Comprehensive lessons only when you need deeper understanding of specific topics.
 
 ### Comprehensive Track (Optional Deep Dive)
-**Time:** 7-10 hours over 6 weeks
+**Time:** 7-10 hours (6 lessons)
 **Files:** C-files (detailed instructions)
 **Format:** Extensive lessons with practice exercises and troubleshooting
 **Outcome:** Strong foundational knowledge, portfolio-ready skills
 **When to use:** When you want thorough understanding, are training others, need to troubleshoot issues, or prefer comprehensive learning
 
-**Both tracks teach the same skills** - Express gets you operational quickly, Comprehensive provides depth. You can mix and match: do Express for most weeks, Comprehensive for topics that interest you.
+**Both tracks teach the same skills** - Express gets you operational quickly, Comprehensive provides depth. You can mix and match: do Express for most lessons, Comprehensive for topics that interest you.
 
 ---
 
@@ -82,7 +82,7 @@ By Week 6, you'll have:
 
 ## How It Works
 
-**Each week includes:**
+**Each lesson includes:**
 1. **Express track (A-files)** - Streamlined lessons emphasizing core concepts (~10-30 min)
 2. **Prerequisites check (B-files)** - Verify you're ready to start
 3. **Comprehensive instructions (C-files)** - Detailed step-by-step lessons (1-3 hours)
@@ -90,12 +90,12 @@ By Week 6, you'll have:
 5. **Solution files (F-files)** - Reference for expected outcomes
 
 **File naming convention:**
-- `A-weekX-express.md` - Express track version (~10-30 min per week) - PRIMARY LEARNING PATH
-- `B-weekX-prerequisites-check.md` - Setup verification
-- `C-weekX-instructions.md` - Comprehensive lesson (1-3 hours)
-- `D-weekX-practice-*.md` - Practice exercises
-- `E-weekX-practice-*.md` - Additional exercises or templates
-- `F-weekX-solution-*.md` - Expected outcomes and reference solutions
+- `A-lesson0X-express.md` - Express track version (~10-30 min per lesson) - PRIMARY LEARNING PATH
+- `B-lesson0X-prerequisites-check.md` - Setup verification
+- `C-lesson0X-instructions.md` - Comprehensive lesson (1-3 hours)
+- `D-lesson0X-practice-*.md` - Practice exercises
+- `E-lesson0X-practice-*.md` - Additional exercises or templates
+- `F-lesson0X-solution-*.md` - Expected outcomes and reference solutions
 
 **Reference materials:**
 - `docs/` folder contains templates and supplementary materials (e.g., PR template)
@@ -107,17 +107,17 @@ By Week 6, you'll have:
 ## Time Commitment
 
 **Express Track (A-files):**
-- Week 1-6: 75-90 minutes total
+- Lessons 1-6: 75-90 minutes total
 - Focus on core concepts and AI-assisted workflows
 - Return to comprehensive lessons (C-files) as needed
 
 **Comprehensive Track (C-files):**
-- Week 1: 30-45 minutes (Terminal & Markdown basics)
-- Week 2: 45-75 minutes (VS Code setup)
-- Week 3: 1.5-2.5 hours (Git fundamentals - conceptually hardest)
-- Week 4: 1-1.5 hours (GitHub & remote repos)
-- Week 5: 1.5-2 hours (Branching & collaboration)
-- Week 6: 1.5-2.5 hours (Real project setup - varies by complexity)
+- Lesson 1: 30-45 minutes (Terminal & Markdown basics)
+- Lesson 2: 45-75 minutes (VS Code setup)
+- Lesson 3: 1.5-2.5 hours (Git fundamentals - conceptually hardest)
+- Lesson 4: 1-1.5 hours (GitHub & remote repos)
+- Lesson 5: 1.5-2 hours (Branching & collaboration)
+- Lesson 6: 1.5-2.5 hours (Real project setup - varies by complexity)
 - **Total: 7-10 hours**
 
 ---
@@ -125,18 +125,18 @@ By Week 6, you'll have:
 ## Getting Started
 
 **Recommended path (Express Track):**
-1. Start with `A-week1-express.md` - Jump right into the fast track
-2. Complete weeks sequentially - each builds on previous skills (75-90 min total)
-3. Return to `C-week*-instructions.md` files only when you need deeper understanding
+1. Start with `A-lesson01-express.md` - Jump right into the fast track
+2. Complete lessons sequentially - each builds on previous skills (75-90 min total)
+3. Return to `C-lesson*-instructions.md` files only when you need deeper understanding
 
 **Alternative (Comprehensive Track):**
-1. Start with `B-week1-prerequisites-check.md` for setup verification
-2. Follow `C-week*-instructions.md` files for detailed lessons (7-10 hours total)
+1. Start with `B-lesson01-prerequisites-check.md` for setup verification
+2. Follow `C-lesson*-instructions.md` files for detailed lessons (7-10 hours total)
 3. Practice daily (even 10 minutes helps)
 
 **Both paths:**
-- Complete weeks sequentially
-- Use AI assistants when stuck (prompts provided in Week 6)
+- Complete lessons sequentially
+- Use AI assistants when stuck (prompts provided in Lesson 6)
 
 ---
 
