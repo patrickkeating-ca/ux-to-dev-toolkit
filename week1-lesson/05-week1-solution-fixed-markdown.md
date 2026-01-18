@@ -1,60 +1,36 @@
-# UX Project Overview
+# UX Research Findings
 
-This document contains information about our user research project.
+This document contains our key user research insights.
 
-## Project Goals
+## Research Overview
 
-The main objectives of this project are:
-- Learn about user pain points
-- Identify opportunities for improvement
-- Create actionable recommendations
+We conducted **8 user interviews** in January 2025.
 
-## Key Findings
+## Main Finding
 
-### User Interviews
+The most common pain point was **navigation confusion**.
 
-We conducted 8 user interviews between January 10-15, 2025.
-
-**Participant Details:**
-- Participants ranged from 25-45 years old
-- All were existing customers
-- Sessions lasted 30-45 minutes
-
-The most common pain point mentioned was **navigation confusion**.
-
-Users also struggled with:
+Users struggled with:
 - Finding account settings
 - Understanding pricing tiers
 - Locating support resources
 
-### Usability Testing Results
+## Key Metrics
 
 - **Task completion rate:** 85%
 - **Average time on task:** 3.5 minutes
-- **User satisfaction score:** 7/10
 
 ## Recommendations
 
 Based on our research, we recommend:
 
-1. Simplify the navigation structure
-2. Add a persistent search feature
-3. Create an onboarding tutorial
-4. Improve the help documentation
+1. Simplify navigation
+2. Add search feature
+3. Create onboarding tutorial
 
-## Next Steps
-
-- [ ] Schedule design review meeting
-- [ ] Create wireframes for new navigation
-- [ ] Plan usability testing for iteration 2
-- [ ] Update stakeholders on findings
-
-## Team Members
+## Team
 
 - **Sarah Chen** - Lead Researcher
 - **Michael Rodriguez** - UX Designer
-- **Jessica Williams** - Product Manager
 
-For more information, see the [full research report](link-to-report).
-
-**Contact:** [sarah.chen@company.com](mailto:sarah.chen@company.com) with questions.
+**Contact:** [sarah.chen@company.com](mailto:sarah.chen@company.com) for details.
