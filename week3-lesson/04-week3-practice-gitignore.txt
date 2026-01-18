@@ -1,0 +1,212 @@
+# .gitignore Practice Guide
+
+## What is .gitignore?
+
+A .gitignore file tells Git which files and folders to ignore. These files won't be tracked, staged, or committed.
+
+## Why Use .gitignore?
+
+**Common files to ignore:**
+- System files (.DS_Store on Mac, Thumbs.db on Windows)
+- Temporary files created by editors
+- Build artifacts and compiled code
+- Large binary files (videos, PSDs, Sketch files)
+- Files with sensitive information (API keys, passwords)
+- Dependencies that can be downloaded (node_modules)
+
+## .gitignore Syntax
+
+**Ignore specific file:**
+```
+secret-keys.txt
+```
+
+**Ignore all files of a type:**
+```
+*.log
+*.tmp
+```
+
+**Ignore entire folder:**
+```
+temp/
+build/
+```
+
+**Ignore files in all subdirectories:**
+```
+**/*.log
+```
+
+**Comments start with #:**
+```
+# This is a comment explaining what I'm ignoring
+```
+
+**Negate a rule (don't ignore this one):**
+```
+*.log
+!important.log
+```
+
+## Common .gitignore Patterns for UX Work
+
+**Mac System Files:**
+```
+.DS_Store
+.AppleDouble
+.LSOverride
+```
+
+**Editor Files:**
+```
+*.swp
+*.swo
+*~
+.vscode/
+```
+
+**Design Files (large):**
+```
+*.psd
+*.sketch
+*.fig
+```
+
+**Temporary Files:**
+```
+*.tmp
+*.temp
+*.bak
+*.cache
+```
+
+**Sensitive Data:**
+```
+secrets.txt
+api-keys.txt
+.env
+```
+
+**Build/Output Folders:**
+```
+dist/
+build/
+output/
+```
+
+## Creating Your .gitignore
+
+**Step 1:** Create the file (note the leading dot)
+```bash
+touch .gitignore
+```
+
+**Step 2:** Add patterns for files to ignore
+
+**Step 3:** Commit the .gitignore file itself
+```bash
+git add .gitignore
+git commit -m "Added .gitignore"
+```
+
+**Step 4:** Git now ignores those patterns automatically
+
+## Testing .gitignore
+
+**Create a file that matches your ignore pattern:**
+```bash
+touch test.tmp
+```
+
+**Check git status:**
+```bash
+git status
+```
+
+If .gitignore is working, you won't see test.tmp in the output.
+
+## Common Mistake
+
+**.gitignore only works for untracked files.**
+
+If you already committed a file, adding it to .gitignore won't work. You need to:
+
+```bash
+git rm --cached filename
+git commit -m "Removed file from tracking"
+```
+
+Then .gitignore will work for that file.
+
+## Practice Exercise
+
+1. Create a .gitignore file
+2. Add patterns to ignore .DS_Store and *.tmp files
+3. Create a .DS_Store file in your folder
+4. Run git status
+5. Verify .DS_Store doesn't appear (it's ignored)
+6. Commit your .gitignore file
+
+## Sample .gitignore for UX Projects
+
+```
+# Mac system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Editor files
+*.swp
+*~
+.vscode/settings.json
+
+# Large design files (link to these instead)
+*.psd
+*.sketch
+
+# Sensitive information
+secrets.txt
+api-keys.txt
+.env
+
+# Build output
+dist/
+build/
+
+# Dependencies (can be reinstalled)
+node_modules/
+
+# Log files
+*.log
+```
+
+## When to Commit .gitignore
+
+**Always commit the .gitignore file itself** so that:
+- Team members get the same ignore rules
+- New contributors don't accidentally commit system files
+- Project stays clean across all computers
+
+## Resources
+
+**GitHub's .gitignore templates:**
+- [github.com/github/gitignore](https://github.com/github/gitignore)
+
+**Online .gitignore generator:**
+- [gitignore.io](https://gitignore.io)
+
+## Summary
+
+.gitignore is essential for:
+- Keeping repositories clean
+- Preventing accidental commits of sensitive data
+- Avoiding system file conflicts
+- Reducing repository size
+
+Set it up early and update it as needed.
