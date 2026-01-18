@@ -27,27 +27,25 @@ Build a complete, portfolio-ready UX project repository with proper structure an
 
 ---
 
-## Learning Paths
+## Two Learning Tracks
 
-### Standard Track (Recommended)
-**Time:** 8-13 hours over 6 weeks
-**Format:** Focused hands-on exercises with essential concepts
-**Outcome:** Working knowledge of developer workflows, portfolio-ready skills
-**Philosophy:** Practical, focused content
-
-### Express Track (Recommended Starting Point)
+### Express Track (Recommended)
 **Time:** 75-90 minutes total
-**Format:** A-files only - streamlined lessons emphasizing essentials and AI-assisted workflows
+**Files:** A-files only (one per week)
+**Format:** Streamlined lessons emphasizing core concepts and AI-assisted workflows
 **Outcome:** Operationally confident, ready to use developer tools in daily work
-**Philosophy:** Learn core concepts, use AI for syntax and commands
+**Philosophy:** Learn fundamentals, use AI for syntax and commands
 
-### Comprehensive Track (For Deep Understanding)
+**Why start here:** Get functional fast, then return to Comprehensive lessons only when you need deeper understanding of specific topics.
+
+### Comprehensive Track (Optional Deep Dive)
 **Time:** 8-13 hours over 6 weeks
-**Format:** C-files - detailed lessons with extensive practice and troubleshooting
+**Files:** C-files (detailed instructions)
+**Format:** Extensive lessons with practice exercises and troubleshooting
 **Outcome:** Strong foundational knowledge, portfolio-ready skills
-**When to use:** When you want thorough understanding, are training others, or prefer comprehensive learning
+**When to use:** When you want thorough understanding, are training others, need to troubleshoot issues, or prefer comprehensive learning
 
-Choose your learning path based on available time and goals. You can always return to comprehensive lessons (C-files) when you need deeper understanding of specific topics.
+**Both tracks teach the same skills** - Express gets you operational quickly, Comprehensive provides depth. You can mix and match: do Express for most weeks, Comprehensive for topics that interest you.
 
 ---
 
@@ -126,11 +124,19 @@ By Week 6, you'll have:
 
 ## Getting Started
 
-1. Start with `B-week1-prerequisites-check.md`
-2. Or, if time is tight, try `A-week1-express.md`
-3. Complete weeks sequentially—each builds on previous skills
-4. Practice daily (even 10 minutes helps)
-5. Use AI assistants when stuck (prompts provided)
+**Recommended path (Express Track):**
+1. Start with `A-week1-express.md` - Jump right into the fast track
+2. Complete weeks sequentially - each builds on previous skills (75-90 min total)
+3. Return to `C-week*-instructions.md` files only when you need deeper understanding
+
+**Alternative (Comprehensive Track):**
+1. Start with `B-week1-prerequisites-check.md` for setup verification
+2. Follow `C-week*-instructions.md` files for detailed lessons (8-13 hours total)
+3. Practice daily (even 10 minutes helps)
+
+**Both paths:**
+- Complete weeks sequentially
+- Use AI assistants when stuck (prompts provided in Week 6)
 
 ---
 
