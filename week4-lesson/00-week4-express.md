@@ -38,7 +38,7 @@ Connect your local Git to GitHub, push your work to the cloud. Skip the deep exp
 7. Expiration: 90 days (or whatever you prefer)
 8. Check the box: **repo** (gives full repo access)
 9. Scroll down → Generate token
-10. **COPY THE TOKEN IMMEDIATELY** - you can't see it again!
+10. **COPY THE TOKEN IMMEDIATELY** - you won't see it again.
 11. Save it somewhere safe (password manager, secure notes)
 
 **This token is your password when pushing to GitHub.**

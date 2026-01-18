@@ -126,7 +126,7 @@ git branch -d feature/add-timeline
 
 ## The Complete Workflow
 
-**Every time you start new work:**
+**Every time you start a new work:**
 
 1. `git checkout main` - Switch to main
 2. `git pull` - Get latest changes
