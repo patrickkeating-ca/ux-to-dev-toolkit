@@ -130,7 +130,7 @@ git commit -m "Initial commit - added notes file"
 ```bash
 git log --oneline
 ```
-You should see your commit!
+You should see your commit.
 
 **Make a change:**
 ```bash
