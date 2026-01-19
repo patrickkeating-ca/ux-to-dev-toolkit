@@ -156,17 +156,14 @@ git log --oneline
 
 ---
 
-## The Cycle You'll Repeat Forever
+## The Git Version Control Cycle
 
 ```
 1. Make changes to files
 2. git status (see what changed)
 3. git add . (stage changes)
 4. git commit -m "description" (save snapshot)
-5. Repeat
 ```
-
-**This becomes automatic with practice.**
 
 ---
 
@@ -177,7 +174,6 @@ The full Lesson 3 lesson includes:
 - Using .gitignore
 - Viewing diffs
 - Undoing mistakes
-- Advanced commit techniques
 - Extended practice scenarios
 
 ---
@@ -224,8 +220,6 @@ git commit -m "msg"   # Save snapshot
 git log --oneline     # See history
 ```
 
-**Memorize this flow. Everything else is bonus.**
-
 ---
 
 ## Critical Understanding
@@ -240,4 +234,4 @@ git log --oneline     # See history
 
 ## Next Step
 
-Lesson 4 Express will connect this local Git to GitHub (the cloud).
+Lesson 4 Express will connect your local Git to GitHub (the cloud repository).
