@@ -115,6 +115,7 @@ bare minimum to be productive.
 Command + P     → Open file
 Command + S     → Save
 Control + `     → Terminal
+Command + K and then V → Preview markdown side-by-side
 Command + Shift + V → Preview markdown
 Command + B     → Hide/show sidebar
 ```
