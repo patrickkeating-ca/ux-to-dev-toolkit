@@ -1,35 +1,3 @@
-**Reading these instructions**
-If you're viewing this in a text editor, you'll see formatting codes like ```bash that won't appear in a markdown reader.
-
-**Takeaway**
-If you see 'bash' or 'zsh', it means it's a 'shell', which is another name for the Terminal.
-
-If you're looking at this in a text editor, this might be a little confusing.
-
-### Example	
-```bash
-cd ~/Desktop
-mkdir ux-github-practice
-cd ux-github-practice
-```
-Important: Don't type ```bash into the terminal. It's just formatting code. When you view this in a markdown reader (instructions provided in VS Code), you'll see a clean highlighted code block instead.
-
-The expectation is that you will enter these into the Terminal one line at a time, not copy and paste everything. 
-
-
-What it means
-```bash
-	What it means: In a Terminal, enter the following directions. 
-1st step: Type cd ~/Desktop 
-	What it means: Navigate (change directory) to your Desktop
-2nd step: Type mkdir ux-github-practice
-	What it means: You're on the Desktop, make a directory (folder) called ux-github-practice
-3rd step: Type cd ux-github-practice 
-	What it means: Navigate (change directory) to your new folder.
-```
-	What it means: This will tell the markdown reader that this is the end of the 'terminal' code.
-
-
 # Lesson 1 Express: Terminal & Markdown Basics
 ## 10-Minute Quick Start
 
@@ -157,22 +125,18 @@ This is **bold** and this is *italic*.
 
 The full Lesson 1 lesson includes:
 - More Terminal commands
-- File manipulation
-- Markdown tables and advanced formatting
-- Extended practice exercises
+- Advanced formatting
+- ADditional practice exercises
 - Troubleshooting guide
-
-**You can come back to these later if needed.**
 
 ---
 
 ## When to Return to Full Lesson 1
 
 Come back to the comprehensive version if:
-- You get stuck in later weeks and need Terminal refresher
+- You get stuck in later weeks and need a Terminal refresher
 - You want to learn more Markdown formatting
-- You're creating professional documentation
-- You have time to practice properly
+- You're creating shareable documentation
 
 **For now, you know enough. Move to Lesson 2.**
 
@@ -193,6 +157,4 @@ knowledge to be functional.
 
 ## Next Step
 
-You're ready for Lesson 2 Express. The full lessons are always available when you have more time.
-
-**Time saved: ~20-30 minutes**
+You're ready for Lesson 2 Express. 
