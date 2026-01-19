@@ -39,7 +39,7 @@ Skip the full lesson if you're short on time. Here's the bare minimum to get fun
 
 ## Goal
 
-Learn just enough Terminal and Markdown to complete the remaining weeks. You can come back later for the comprehensive version.
+Learn just enough Terminal and Markdown to complete the remaining coursework. You can come back later for the comprehensive version.
 
 **Time commitment:** 10-15 minutes
 
