@@ -1,17 +1,15 @@
 # Lesson 3 Express: Git Basics (Local)
 ## 15-Minute Quick Start
 
-Git is the hardest concept to learn quickly, but here's the absolute minimum.
+**Note:** Lesson 3 is conceptually the hardest. If this feels confusing, consider taking the full lesson. Git is worth understanding properly.
 
 ---
 
 ## Goal
 
-Understand just enough Git to start tracking your files. Deep understanding comes with practice.
+Understand just enough Git to start tracking your files.
 
 **Time commitment:** 15-20 minutes
-
-**Warning:** This is compressed. Git will feel weird at first. That's normal.
 
 ---
 
@@ -32,11 +30,9 @@ git config --global user.name
 git config --global user.email
 ```
 
-**Done. Never need to do this again.**
-
 ---
 
-## Part 2: The Only 5 Git Commands You Need (5 minutes)
+## Part 2: 5 Git Commands (5 minutes)
 
 ### The Workflow
 
@@ -85,16 +81,14 @@ Shows all your snapshots.
 
 **Git:**
 - Keeps one file
-- Remembers ALL previous versions
+- Remembers **all** previous versions
 - Like a time machine for your files
 
 **Think of it as:**
-- Each commit = photograph of your project
-- Git stores all photographs
+- Each commit = snapshot of your project
+- Git stores all snapshot
 - You can view any photo anytime
-- Files don't multiply
-
-**This is the hardest concept. Let it sink in through practice.**
+- One file. Multiple snapshots
 
 ---
 
@@ -186,8 +180,6 @@ The full Lesson 3 lesson includes:
 - Advanced commit techniques
 - Extended practice scenarios
 
-**You can learn these later when you need them.**
-
 ---
 
 ## When to Return to Full Lesson 3
@@ -198,11 +190,9 @@ Come back to comprehensive version if:
 - You need to ignore certain files
 - The basic workflow feels comfortable
 
-**For now, move to Lesson 4 to connect Git to GitHub.**
-
 ---
 
-## Common Confusion (It's Normal!)
+## Common Points of Confusion
 
 **"Why two steps (add, then commit)?"**
 - Gives you control over what to commit
@@ -256,14 +246,8 @@ git log --oneline     # See history
 - View commit history
 - Understand commits are snapshots
 
-**If those make sense, you're ready.**
-
 ---
 
 ## Next Step
 
 Lesson 4 Express will connect this local Git to GitHub (the cloud).
-
-**Time saved: ~45-60 minutes**
-
-**Note:** Lesson 3 is conceptually the hardest. If this felt confusing, consider taking the full lesson. Git is worth understanding properly.
