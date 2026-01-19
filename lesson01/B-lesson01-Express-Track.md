@@ -1,3 +1,35 @@
+**Reading these instructions**
+If you're viewing this in a text editor, you'll see formatting codes like ```bash that won't appear in a markdown reader.
+
+**Takeaway**
+If you see 'bash' or 'zsh', it means it's a 'shell', which is another name for the Terminal.
+
+If you're looking at this in a text editor, this might be a little confusing.
+
+### Example	
+```bash
+cd ~/Desktop
+mkdir ux-github-practice
+cd ux-github-practice
+```
+Important: Don't type ```bash into the terminal. It's just formatting code. When you view this in a markdown reader (instructions provided in VS Code), you'll see a clean highlighted code block instead.
+
+The expectation is that you will enter these into the Terminal one line at a time, not copy and paste everything. 
+
+
+What it means
+```bash
+	What it means: In a Terminal, enter the following directions. 
+1st step: Type cd ~/Desktop 
+	What it means: Navigate (change directory) to your Desktop
+2nd step: Type mkdir ux-github-practice
+	What it means: You're on the Desktop, make a directory (folder) called ux-github-practice
+3rd step: Type cd ux-github-practice 
+	What it means: Navigate (change directory) to your new folder.
+```
+	What it means: This will tell the markdown reader that this is the end of the 'terminal' code.
+
+
 # Lesson 1 Express: Terminal & Markdown Basics
 ## 10-Minute Quick Start
 
