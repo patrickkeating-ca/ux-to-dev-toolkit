@@ -170,7 +170,7 @@ git log --oneline
 
 ---
 
-## What You're Skipping
+## When to Return to Full Lesson 3
 
 The full Lesson 3 lesson includes:
 - Understanding the three states (modified, staged, committed)
@@ -179,16 +179,6 @@ The full Lesson 3 lesson includes:
 - Undoing mistakes
 - Advanced commit techniques
 - Extended practice scenarios
-
----
-
-## When to Return to Full Lesson 3
-
-Come back to comprehensive version if:
-- You need to undo commits
-- You want to see exact changes between versions
-- You need to ignore certain files
-- The basic workflow feels comfortable
 
 ---
 
